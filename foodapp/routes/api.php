@@ -31,7 +31,8 @@ Route::middleware('auth:sanctum')->group(function()
      Route::post('paymentpage','App\Http\Controllers\customercontroller@paymentpage');
      Route::get('getPayments','App\Http\Controllers\customercontroller@getPayments');
 
-     Route::get('saveOrderDetails','App\Http\Controllers\customercontroller@saveOrderDetails');
+     Route::post('saveOrderDetails','App\Http\Controllers\customercontroller@saveOrderDetails');
+     
     
    
 
